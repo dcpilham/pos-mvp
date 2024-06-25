@@ -3,7 +3,7 @@ import 'package:pos_mvp/model/order.dart';
 import 'package:pos_mvp/model/product.dart';
 import 'package:pos_mvp/utils/static_data.dart';
 
-class OrderRepository extends ChangeNotifier {
+class OrderRepository {
   Order? _ongoingOrder;
 
   Order createOngoingOrder(String customerName) {
